@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    background-color: blueviolet;
+ }
+
+.to-do-app{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 90px auto 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid gray;
+    width: 40%;
+
+}
+#name{
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+#nameinput{
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 20px;
+    padding-left: 5px;
+
+}
+#addbutton{
+    width: 20%;
+    margin-bottom: 20px;
+    background-color: limegreen;
+    border-radius: 10px; 
+    border: 10px;
+    padding: 3px;
+}
+#addTolist{
+    list-style: none;
+}
+.list-item, .name{
+    margin: 10px;
+}
+.delete{
+    padding: 1px;
+    margin-left:50px;
+    color: blanchedalmond;
+    background-color: red;
+    border-radius: 10px;
+    width: 50px;
+    border: 0px;
+}
